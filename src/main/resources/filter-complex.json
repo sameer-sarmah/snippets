@@ -1,0 +1,57 @@
+{
+
+	"operation": "and",
+	"children": [
+		{
+			"operation": "and",
+			"children": [
+				{
+					"fieldOperand": "age",
+					"operation": "gt",
+					"valueOperand": 60
+				},
+				{
+					"fieldOperand": "age",
+					"operation": "lt",
+					"valueOperand": 80
+				}
+			]
+		},
+		{
+			"operation": "and",
+			"children": [
+				{
+					"fieldOperand": "gender",
+					"operation": "eq",
+					"valueOperand": "male"
+				},
+			    {
+					"fieldOperand": "department/name",
+					"operation": "eq",
+					"valueOperand": "Engineering"
+				}
+			]
+		},
+		{
+			"operation": "and",
+			"children": [
+				{
+					"fieldOperand": "lob",
+					"operation": "containsAny",
+					"valueOperand": ["SuccessFactors"]
+				},
+			    {
+					"fieldOperand": "doj",
+					"operation": "isAfter",
+					"valueOperand": "2015-01-30T00:00:00+00:00"
+				},
+				{
+					"fieldOperand": "doj",
+					"operation": "isBefore",
+					"valueOperand": "2022-01-30T00:00:00+00:00"
+				}
+			]
+		}
+		
+	]
+}

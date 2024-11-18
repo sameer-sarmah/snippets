@@ -1,0 +1,6 @@
+      <n0:ExternalEventResponse xmlns:n0="http://notification.event.successfactors.com" xmlns:prx="urn:sap.com:proxy:VZN:/1SAI/TAS47D696BFF7F26D00955A:740">
+         <n0:responsePayload>
+            <n0:status>500</n0:status>
+            <n0:statusDetails>No User ID provided</n0:statusDetails>
+         </n0:responsePayload>
+      </n0:ExternalEventResponse>

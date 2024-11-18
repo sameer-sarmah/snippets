@@ -1,0 +1,24 @@
+[
+    {
+        "eventType": "sap.hr.odm.task.decorated",
+        "topic": "sap.hr.odm.task",
+        "eventTypeMessageKey": "TASK_DECORATED",
+        "descriptionMessageKey": "TASK_DECORATED_DESC",
+        "sourceArea": "MODULE_ECT",
+        "filterParameters": [{
+                "path": "department/name",
+                "labelMessageKey": "EMP_NAME",
+                "dataType": "string"
+            }, {
+                "path": "age",
+                "labelMessageKey": "EMP_AGE",
+                "dataType": "number"
+            },{
+                "path": "gender",
+                "labelMessageKey": "EMP_GENDER",
+                "dataType": "string",
+                "supportedValues" : "Male,Female"
+            }
+        ]
+    }
+]

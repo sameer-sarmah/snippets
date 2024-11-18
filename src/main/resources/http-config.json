@@ -1,0 +1,11 @@
+{
+
+		"httpMethod": "POST",
+		"path": "/task-center-service/v1/taskDefinitions",
+		"queryString": null,
+		"headers": {
+			"content-type": [
+				"application/json"
+			]
+		}
+}

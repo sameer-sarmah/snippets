@@ -1,0 +1,11 @@
+{
+	"age": 65,
+	"gender": "male",
+	"department": {
+		"name": "Engineering"
+	},
+	"doj":"2020-01-30T00:00:00+00:00",
+	"dob":"2000-01-30T00:00:00+00:00",
+	"lob":["SuccessFactors"],
+	"skills":[325,333]
+}

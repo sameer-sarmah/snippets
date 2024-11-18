@@ -1,0 +1,8 @@
+{
+  "externalCode": "553e4b60-31ec-4d3f-9d99-e1135a14535b",
+  "configurations": {
+      "destinationOperation": {
+     	 "operation": "read-only"
+    }
+  }
+}  

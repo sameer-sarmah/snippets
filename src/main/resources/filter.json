@@ -1,0 +1,31 @@
+{
+	"fieldOperand": null,
+	"operation": "and",
+	"valueOperand": null,
+	"children": [
+		{
+			"fieldOperand": null,
+			"operation": "and",
+			"valueOperand": null,
+			"children": [
+				{
+					"fieldOperand": "age",
+					"operation": "gt",
+					"valueOperand": 60
+				}
+			]
+		},
+		{
+			"fieldOperand": null,
+			"operation": "and",
+			"valueOperand": null,
+			"children": [
+				{
+					"fieldOperand": "gender",
+					"operation": "eq",
+					"valueOperand": "male"
+				}
+			]
+		}
+	]
+}
